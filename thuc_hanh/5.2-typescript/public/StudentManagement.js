@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Student_1 = require("./Student");
+var GoodStudent_1 = require("./GoodStudent");
+var s1 = new Student_1.default(1, "Nguyễn Văn A", 18);
+var s2 = new Student_1.default(2, "An", 20);
+var s3 = new Student_1.default(3, "Bình", 21);
+var sArr = new Array();
+sArr.push(s1);
+sArr.push(s2);
+sArr.push(s3);
+console.log(sArr);
+var s4 = new GoodStudent_1.default(4, "Cường", 22, "Trung cấp");
+console.log(s4);
