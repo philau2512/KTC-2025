@@ -1,0 +1,19 @@
+# Bỏ qua node_modules
+node_modules/
+.idea/
+
+# Bao gồm các file khác, ví dụ .csv và .txt, ...
+*.csv
+*.xlsx
+*.doc
+*.docx
+*.pdf
+*.zip
+*.rar
+*.xml
+*.weights
+*.cfg
+*.ttf
+*.mp4
+*.names
+*.exe
