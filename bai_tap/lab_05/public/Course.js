@@ -1,18 +1,18 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Course = /** @class */ (function () {
-    function Course(id, name, tutor, duration) {
+    function Course(id, name, instructor, duration) {
         if (id === void 0) { id = 0; }
         if (name === void 0) { name = "JavaScripts"; }
-        if (tutor === void 0) { tutor = "Nguyen Van A"; }
+        if (instructor === void 0) { instructor = "Nguyen Van A"; }
         if (duration === void 0) { duration = 4; }
         this.id = id;
         this.name = name;
-        this.tutor = tutor;
+        this.instructor = instructor;
         this.duration = duration;
         this.id = id;
         this.name = name;
-        this.tutor = tutor;
+        this.instructor = instructor;
         this.duration = duration;
     }
     Object.defineProperty(Course.prototype, "getId", {
@@ -29,9 +29,9 @@ var Course = /** @class */ (function () {
         enumerable: false,
         configurable: true
     });
-    Object.defineProperty(Course.prototype, "getTutor", {
+    Object.defineProperty(Course.prototype, "getInstructor", {
         get: function () {
-            return this.tutor;
+            return this.instructor;
         },
         enumerable: false,
         configurable: true
@@ -57,9 +57,9 @@ var Course = /** @class */ (function () {
         enumerable: false,
         configurable: true
     });
-    Object.defineProperty(Course.prototype, "setTutor", {
-        set: function (tutor) {
-            this.tutor = tutor;
+    Object.defineProperty(Course.prototype, "setInstructor", {
+        set: function (instructor) {
+            this.instructor = instructor;
         },
         enumerable: false,
         configurable: true

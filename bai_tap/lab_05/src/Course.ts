@@ -2,12 +2,12 @@ class Course {
   constructor(
     private id: number = 0,
     private name: string = "JavaScripts",
-    private tutor: string = "Nguyen Van A",
+    private instructor: string = "Nguyen Van A",
     private duration: number = 4
   ) {
     this.id = id;
     this.name = name;
-    this.tutor = tutor;
+    this.instructor = instructor;
     this.duration = duration;
   }
 
@@ -19,8 +19,8 @@ class Course {
     return this.name;
   }
 
-  get getTutor() {
-    return this.tutor;
+  get getInstructor() {
+    return this.instructor;
   }
 
   get getDuration() {
@@ -35,8 +35,8 @@ class Course {
     this.name = name;
   }
 
-  set setTutor(tutor: string) {
-    this.tutor = tutor;
+  set setInstructor(instructor: string) {
+    this.instructor = instructor;
   }
 
   set setDuration(duration: number) {
