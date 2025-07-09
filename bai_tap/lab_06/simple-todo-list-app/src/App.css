@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #242424;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
